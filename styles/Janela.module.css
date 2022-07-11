@@ -1,0 +1,70 @@
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px; /*largura*/
+    height: 250px;
+    margin: 15px;
+}
+
+.portal {
+    display: flex;
+    border: 5px solid brown;
+    
+}
+
+.janela1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 5px solid rgb(64, 23, 211);
+    width: 250px;
+    height: 250px;
+    background-color: cornflowerblue;
+}
+
+.macaneta1 {
+    position: absolute;
+    align-self: flex-end;
+    top: 115px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+.janela2 {
+    display: flex;
+   
+    flex-grow: 1;
+    border: 5px solid rgb(23, 82, 211);
+    width: 250px;
+    height: 250px;
+    background-color: rgb(42, 81, 150);
+}
+
+.macaneta2 {
+    position: absolute;
+    align-self: flex-start;
+    top: 115px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+.selecionada1 .janela1{
+    border: 5px solid rgb(176, 211, 23);
+}
+
+.selecionada1 .macaneta1{
+    background-color: yellow;
+}
+
+
+.selecionada2 .janela2 {
+    border: 5px solid rgb(17, 240, 47);
+}
+.selecionada2 .macaneta2{
+    background-color: yellow;
+}
